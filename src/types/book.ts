@@ -9,7 +9,7 @@ export interface Book {
     author: string;
     category: Category;
     year: number;
-    available: string | number;
+    available: number;
 }
 
 export type ApiResponse<T> =
